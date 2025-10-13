@@ -1,0 +1,29 @@
+{
+  "name": "practica-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "- Se creó una UI compuesta por múltiples componentes (`Header`, `Tagline`, `Footer`).\r - Se integraron dentro de un componente raíz `App`.",
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarotSanabriaLaura/practica-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YarotSanabriaLaura/practica-react/issues"
+  },
+  "homepage": "https://github.com/YarotSanabriaLaura/practica-react#readme",
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
