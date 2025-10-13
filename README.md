@@ -1,14 +1,16 @@
 # Practica React Foundations 
-# Chapter 3 – Updating UI
+# Chapter 4 – Your First Component
 
 ## Qué se hizo
-- Se implementó el uso de `React.createElement()` y `ReactDOM.render()`.
-- Se renderizó un elemento `<h1>` en el DOM usando React.
+- Se habilitó JSX con Babel en el navegador.
+- Se creó el primer componente funcional `Header`.
+- Se renderizó `<Header />` en el contenedor `#app`.
 
 ## Conceptos
-- Introducción a React.
-- Uso del Virtual DOM y renderizado declarativo.
-- Diferencias con la manipulación del DOM manual.
+- Componente funcional en React.
+- JSX renderizado en el navegador con `babel-standalone`.
+- Diferencia entre elementos y componentes.
 
 ## Evidencias
-- Captura: vista en navegador mostrando el texto **Develop. Preview. Ship.**
+- Captura: la página muestra **Develop. Preview. Ship.**
+
