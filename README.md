@@ -1,17 +1,17 @@
 # Practica React Foundations 
-# Chapter 8 – Migración a Next.js (App Router)
+# Chapter 9 – From React to Next.js (Server vs Client)
 
 ## Qué se hizo
-- Se instaló `next`, `react`, `react-dom` y se configuraron scripts (`dev`, `build`, `start`).
-- Se creó la estructura `app/` con `layout.js` y `page.js`.
-- Se movió la UI a Server Components por defecto y se aisló la interactividad en un Client Component.
+- Se reorganizó la UI en **Server Components** (`Header`, `NamesList`) y **Client Component** (`LikeButton` con `'use client'`).
+- Se dejó la lógica interactiva sólo del lado cliente para evitar errores de RSC.
 
 ## Archivos clave
-- `app/layout.js`: layout raíz con `<html>` y `<body>`.
-- `app/page.js`: renderiza título y lista de nombres (Server Component).
-- `app/like-button.js`: `'use client'` + `useState` para el botón Like (Client Component).
+- `app/components/Header.js` (Server)
+- `app/components/NamesList.js` (Server)
+- `app/like-button.js` (Client)
+- `app/page.js` compone todo
 
-## Cómo correr
+## Correr
 ```bash
 npm run dev
 # http://localhost:3000
