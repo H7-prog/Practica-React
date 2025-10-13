@@ -1,13 +1,13 @@
 # Practica React Foundations 
-# Chapter 1 – Estructura HTML y DOM
+# Chapter 2 – Rendering UI
 
 ## Qué se hizo
-- Se creó la estructura base en `index.html`.
-- Se definió el contenedor raíz `#app` para futuras manipulaciones del DOM y React.
+- Se agregó `script.js` para insertar dinámicamente contenido HTML mediante JavaScript.
+- Se actualizó `index.html` para importar el script.
 
 ## Conceptos
-- HTML básico y árbol del DOM.
-- Preparación de un punto de montaje (`div#app`) para UI.
+- Manipulación del DOM.
+- Renderizado dinámico mediante `createElement` y `appendChild`.
 
 ## Evidencias
-- Captura: vista del archivo `index.html` en el navegador (página en blanco con `#app` vacío).
+- Captura: vista en navegador mostrando el texto **Develop. Preview. Ship.** renderizado.
