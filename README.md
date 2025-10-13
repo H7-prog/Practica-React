@@ -10,5 +10,4 @@
 - Reutilización y separación de responsabilidades.
 - Árbol de componentes (App como orquestador).
 
-## Evidencias
-- Captura: página mostrando el título, la frase y el footer con el año.
+
