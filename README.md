@@ -1,13 +1,14 @@
 # Practica React Foundations 
-# Chapter 2 – Rendering UI
+# Chapter 3 – Updating UI
 
 ## Qué se hizo
-- Se agregó `script.js` para insertar dinámicamente contenido HTML mediante JavaScript.
-- Se actualizó `index.html` para importar el script.
+- Se implementó el uso de `React.createElement()` y `ReactDOM.render()`.
+- Se renderizó un elemento `<h1>` en el DOM usando React.
 
 ## Conceptos
-- Manipulación del DOM.
-- Renderizado dinámico mediante `createElement` y `appendChild`.
+- Introducción a React.
+- Uso del Virtual DOM y renderizado declarativo.
+- Diferencias con la manipulación del DOM manual.
 
 ## Evidencias
-- Captura: vista en navegador mostrando el texto **Develop. Preview. Ship.** renderizado.
+- Captura: vista en navegador mostrando el texto **Develop. Preview. Ship.**
