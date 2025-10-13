@@ -1,16 +1,14 @@
 # Practica React Foundations 
-# Chapter 4 – Your First Component
+# Chapter 5 – Components
 
 ## Qué se hizo
-- Se habilitó JSX con Babel en el navegador.
-- Se creó el primer componente funcional `Header`.
-- Se renderizó `<Header />` en el contenedor `#app`.
+- Se creó una UI compuesta por múltiples componentes (`Header`, `Tagline`, `Footer`).
+- Se integraron dentro de un componente raíz `App`.
 
 ## Conceptos
-- Componente funcional en React.
-- JSX renderizado en el navegador con `babel-standalone`.
-- Diferencia entre elementos y componentes.
+- Composición de componentes.
+- Reutilización y separación de responsabilidades.
+- Árbol de componentes (App como orquestador).
 
 ## Evidencias
-- Captura: la página muestra **Develop. Preview. Ship.**
-
+- Captura: página mostrando el título, la frase y el footer con el año.

@@ -1,22 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React Foundations – Chapter 4</title>
+    <title>React Foundations — Chapter 5</title>
 
-    <!-- React y ReactDOM desde CDN -->
+    <!-- React 18 y ReactDOM desde CDN -->
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
-    <!-- Babel para permitir JSX en el navegador -->
+    <!-- Babel standalone para poder usar JSX en app.js -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
     <div id="app"></div>
 
-    <!-- Nuestro código en JSX -->
-    <script type="text/babel" src="app.js"></script>
+    <!-- Tu código (Babel transforma JSX en el navegador) -->
+    <script type="text/babel" data-presets="env,react" src="./app.js"></script>
   </body>
 </html>
+
+
+
+
 
